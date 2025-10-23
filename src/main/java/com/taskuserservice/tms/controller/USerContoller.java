@@ -13,4 +13,8 @@ public class USerContoller {
     public ResponseEntity<String> updatedtask() {
         return new ResponseEntity("Second class", HttpStatus.CREATED);
     }
+    public ResponseEntity<String> updated3task() {
+        return new ResponseEntity("third class", HttpStatus.CREATED);
+    }
 }
+
